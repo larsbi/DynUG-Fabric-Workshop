@@ -10,7 +10,7 @@ Create a semantic model that will act as our Gold layer. Follow these steps:
 3.	Use the name “Sales and sentiment model” and select all 5 tables (if not visible, cancel “New semantic model” dialog and go back to refresh Lakehouse)
 Click Confirm
 
-4.	The web model view will appear after a few minutes. Here, you must create the following relationships:
+4.	The web model view will appear after a few seconds. Here, you must create the following relationships:
     dimcustomer.CustomerID -> factsales.CustomerID
     dimdate.DateID -> factsales.DateID
     dimproduct.ProductID -> factsales.ProductID 
