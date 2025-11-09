@@ -25,6 +25,7 @@ In Lakehouse select “New pipeline”:
 
 <img width="420" height="420" alt="image" src="https://github.com/user-attachments/assets/f3165907-463d-40e2-8aac-d28a6b8aa7d8" />
 
+
 Name the pipeline “DynUG pipeline”
 
 Use “DynUG database” as source. If not available on landing page, select OneLake catalog and find the item there.
@@ -37,7 +38,11 @@ In “Connect to data source” section, make sure “Tables” are selected. Th
 
 Click Next
 
-In “Connect to data destination” section. Make sure both SalesLT.DimProduct and SalesLT.FactSales is loading to Tables and Load to new table, remove “SalesLT_” in the predefined table name:
+In “Connect to data destination” section. Make sure:
+
+•	SalesLT.DimProduct and SalesLT.FactSales is loading to Tables 
+
+•	Load to new table, remove “SalesLT_” in the predefined table name:
 
 <img width="940" height="352" alt="image" src="https://github.com/user-attachments/assets/057835e2-dd7b-4e7c-bd8e-a9556cb4ebbb" />
 
@@ -66,5 +71,8 @@ You may see table called Unidentified, if that happens, refresh again. It can ta
 
 <img width="508" height="589" alt="image" src="https://github.com/user-attachments/assets/cf22062a-18bc-4eab-9a39-fad0e1307dc4" />
 
-Go to workspace and add “DynUG pipeline” to “Load from Fabric SQL db” task. Select “Load from Fabric SQL db” and Attach item:
+Go to workspace and add “DynUG pipeline” to “Load from Fabric SQL db” task. 
+
+Select “Load from Fabric SQL db” and Attach item:'
+
 <img width="408" height="220" alt="image" src="https://github.com/user-attachments/assets/8e79f288-04d5-479c-956a-c2366a324e6a" />
