@@ -5,17 +5,25 @@ Create new Dataflow Gen2 by creating “New item” from task “Load customer r
 
 Use the name “DynUG Dataflow Gen2”
 
-The source file “Customer reviews.xls” is stored in the Lakehouse called “DynUG_source_Lakehouse”. Choose “Get data from another source”:
+The source file “Customer reviews.xls” is stored in the Lakehouse called “DynUG_source_Lakehouse”. 
+
+Choose “Get data from another source”:
 
 <img width="940" height="368" alt="image" src="https://github.com/user-attachments/assets/74fa427a-b2f3-445d-a74a-f371024fc81c" />
 
-If you cannot locate “DynUG_source_Lakehouse” on the landing page, select OneLake catalog in the left navigation to locate the Lakehouse. Expand Files folder and select “Customer reviews.xls”, followed by clicking Create.
+If you cannot locate “DynUG_source_Lakehouse” on the landing page, select OneLake catalog in the left navigation to locate the Lakehouse. 
 
-Click on [Table] in the row where name is “CustomerReviews”, this will expand the Excel-table called “CustomerReviews”. Rename the query to “CustomerReviews”:
+Expand Files folder and select “Customer reviews.xls”, followed by clicking Create.
+
+Click on [Table] in the row where name is “CustomerReviews”, this will expand the Excel-table called “CustomerReviews”:
 
 <img width="940" height="400" alt="image" src="https://github.com/user-attachments/assets/9b700ae7-c750-4515-a2d6-84d12a08d177" />
 
-No further transformations are needed. However, the Data destination should be the Lakehouse you created. Select + next to Data destination in the lower right-hand corner:
+Rename the query to “CustomerReviews”.
+
+No further transformations are needed. However, the Data destination should be the Lakehouse you created. 
+
+Select + next to Data destination in the lower right-hand corner:
 
 <img width="477" height="223" alt="image" src="https://github.com/user-attachments/assets/69ce70de-9d55-4212-9788-a2e9946b5f8e" />
 
