@@ -36,6 +36,8 @@ You can also find the answer at [DynUG-Fabric-Workshop/code/Lab 4 Load Customer 
 
 If you want to see the output, use “display(<dataframe_name>) to see the result, e.g. replace <dataframe_name> with spark_df.
 
+Run the code cell to make sure data is loaded into a dataframe.
+
 The name of the column with customer reviews is called “CustomerReview”. The syntax to use built-in AI function ai.analyze_sentiment is using this syntax:
 ```python
 df.ai.analyze_sentiment(input_col="input", output_col="Sentiment")
@@ -47,6 +49,8 @@ dfscore = spark_df.ai.analyze_sentiment(input_col="CustomerReview", output_col="
 ```
 Again, add “display(dfscore)” to view the output.
 
+Run the code cell to validate the Analyze sentiment AI functions run without errors.
+
 Next step is to write the output of sentiment analysis to a new table in Lakehouse DynUG_Lakehouse_Silver. If you ask Copilot it will give you an answer like 
 ```python
 dfscore.write.format("delta").saveAsTable("<table_name>")
@@ -55,6 +59,8 @@ Where dfscore is the name of the dataframe we created when doing the sentiment a
 ```python
 dfscore.write.format("delta").saveAsTable("DynUG_Lakehouse_Silver.CustomerReviews")
 ```
+Run the code cell to load transformed data to Silver Lakehouse.
+
 Validate that DynUG_Lakehouse_Silver has table “customerreviews”:
 
 <img width="478" height="277" alt="image" src="https://github.com/user-attachments/assets/2215f3a1-3170-47bf-a878-7ddfc5e24ec4" />
