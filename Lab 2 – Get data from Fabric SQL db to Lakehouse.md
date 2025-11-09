@@ -6,7 +6,7 @@ In Lakehouse select “New shortcut”:
 
 Select Microsoft OneLake as the source.
 
-Find the item “DynUG database” which is Fabric SQL database.
+Find the item “DynUG database” which is a Fabric SQL database.
 
 Expand Tables section and SalesLT schema, select:
 
