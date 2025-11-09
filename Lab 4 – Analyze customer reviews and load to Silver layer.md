@@ -16,7 +16,7 @@ In the Notebook attach Lakehouse “DynUG_Lakehouse_Bronze” and “DynUG_Lakeh
 
 In the first code cell that says “# Welcome to your new notebook”, delete the prepopulated content and add import required libraries to use AI functions for PySpark. You can find the answer in documentation at https://learn.microsoft.com/en-us/fabric/data-science/ai-functions/overview (remember to look for PySpark and not pandas) 
 
-You can also find the answer at DynUG-Fabric-Workshop/code/Lab 4 AI functions library.md at main · larsbi/DynUG-Fabric-Workshop
+You can also find the answer at [DynUG-Fabric-Workshop/code/Lab 4 AI functions library.md at main · larsbi/DynUG-Fabric-Workshop](https://github.com/larsbi/DynUG-Fabric-Workshop/tree/main/code)
 
 Run the code cell.
 
@@ -32,7 +32,7 @@ Start by loading data from “Customer reviews” table in DynUG_Lakehouse_Bronz
 
 Because we have two Lakehouses attached to our Notebook, you should prefix the table name with the Lakehouse name, e.g. “DynUG_Lakehouse_Bronze.<table_name>”. There is always a default Lakehouse and it will be used if no prefixes are used.
 
-You can also find the answer at DynUG-Fabric-Workshop/code/Lab 4 Load Customer reviews at main · larsbi/DynUG-Fabric-Workshop
+You can also find the answer at [DynUG-Fabric-Workshop/code/Lab 4 Load Customer reviews at main · larsbi/DynUG-Fabric-Workshop](https://github.com/larsbi/DynUG-Fabric-Workshop/tree/main/code)
 
 If you want to see the output, use “display(<dataframe_name>) to see the result, e.g. replace <dataframe_name> with spark_df.
 
@@ -59,6 +59,8 @@ Validate that DynUG_Lakehouse_Silver has table “customerreviews”:
 
 <img width="478" height="277" alt="image" src="https://github.com/user-attachments/assets/2215f3a1-3170-47bf-a878-7ddfc5e24ec4" />
 
+# Create shortcuts for tables in Bronze Lakehouse
+
 Next, we must make copies of the other four tables from DynUG_Lakehouse_Bronze to DynUG_Lakehouse_Silver.
 
 In this lab, we don’t need to perform further transformations, but we must get the other four tables from "DynUG_Lakehouse_Bronze" to "DynUG_Lakehouse_Silver". The easy way to achieve this is to create shortcuts Lakehouse "DynUG_Lakehouse_Silver". 
@@ -74,9 +76,6 @@ Navigate to "DynUG_Lakehouse_Silver" and select "Get data" > "New shortcut" in H
 • FactSales
 
 <img width="306" height="391" alt="image" src="https://github.com/user-attachments/assets/4973a3fa-f2bf-40d2-9555-06870d975882" />
-
-
-<img width="306" height="391" alt="image" src="https://github.com/user-attachments/assets/58b1572e-369f-4f74-871d-5a8137ee9a6a" />
 
 Validate that you now have 5 tables in DynUG_Lakehouse_Silver:
 
