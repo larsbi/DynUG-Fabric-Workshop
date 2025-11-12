@@ -32,6 +32,8 @@ Now you created a basic semantic model in Direct Lake mode. In real life, you wi
 
 Next, go back to the workspace and attach the semantic model to the task “Golden data”.
 
+# Create Power BI report
+
 Final step is to create a Power BI report, do it by adding an item from the task “Data visualize”, select Report and select semantic model “Sales and sentiment model”, remember to select “Create a blank report” and not “Auto-create report”:
 
 <img width="586" height="291" alt="image" src="https://github.com/user-attachments/assets/0f297356-9ef6-443f-968e-9151830a234f" />
@@ -41,6 +43,8 @@ Create a visual showing Total sales by sentiment. Use Sentiment from customerrev
 Save the report with the name “Sales by sentiment”:
 
 <img width="948" height="635" alt="image" src="https://github.com/user-attachments/assets/d4fa212b-646f-442c-9ed0-58c168f6b08a" />
+
+# Final result
 
 Go back to the workspace and you have now created your small Fabric project, and the content of the workspace should look like this:
 
