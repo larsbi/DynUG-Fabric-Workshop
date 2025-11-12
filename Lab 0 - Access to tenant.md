@@ -17,3 +17,5 @@ You may be asked to stay signed in, select your own preference.
 Now you are signed in to Fabric and should see a screen like this:
 
 <img width="1800" height="959" alt="image" src="https://github.com/user-attachments/assets/04d7defc-fe09-4737-8a2c-802e1c13c172" />
+
+You can _Start tour_ if you like, or _Cancel_ and you are ready to start working in Fabric.
