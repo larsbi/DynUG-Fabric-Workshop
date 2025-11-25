@@ -44,7 +44,7 @@ In “Connect to data destination” section. Make sure:
 
 •	"Load to new table" is selected
 
-•	To emove “SalesLT_” in the predefined table name:
+•	To remove “SalesLT_” in the predefined table name:
 
 <img width="940" height="352" alt="image" src="https://github.com/user-attachments/assets/057835e2-dd7b-4e7c-bd8e-a9556cb4ebbb" />
 
